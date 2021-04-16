@@ -3,6 +3,13 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+@font-face {
+  font-family: 'Exo 2';
+  src: local("Exo2-ExtraBold.ttf"),
+    url("./fonts/static/Exo2-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+}
+
 h1 {
   font-family: 'Exo 2', sans-serif;
   text-transform: uppercase;
