@@ -15,10 +15,8 @@ function App() {
   const generateOffer = () => {
     fetch(`https://arcane-spire-61626.herokuapp.com/`)
       .then(function (response) {
-        // The API call was successful!
         return response.text();
       }).then(function (html) {
-        // This is the HTML from response as a text string
         // Convert the HTML string into a document object
         const parser = new DOMParser();
         const doc = parser.parseFromString(html, 'text/html');
