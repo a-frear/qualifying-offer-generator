@@ -7,7 +7,8 @@ function App() {
   const formatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'USD',
-    maximumFractionDigits: 0
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0,
 });
 
   //this resource helped me figure out how to deal with an html response: https://gomakethings.com/getting-html-with-fetch-in-vanilla-js/
