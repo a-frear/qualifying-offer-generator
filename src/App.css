@@ -6,7 +6,7 @@ body {
 @font-face {
   font-family: 'Exo 2';
   src: local("Exo2-ExtraBold.ttf"),
-    url("./fonts/static/Exo2-ExtraBold.ttf") format("truetype");
+    url("./fonts/Exo_2/static/Exo2-ExtraBold.ttf") format("truetype");
   font-weight: normal;
 }
 
