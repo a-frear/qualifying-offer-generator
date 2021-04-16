@@ -30,6 +30,7 @@ button {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
+  border-radius: 25px;
 }
 
 .offer {
